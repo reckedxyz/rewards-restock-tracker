@@ -7,11 +7,11 @@ import time
 import requests
 from playwright.sync_api import sync_playwright
 
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
-DISCORD_USER_ID = os.getenv("DISCORD_USER_ID")
+DISCORD_WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1561424246884798487/sR2oDDkG_QIL-EVxvDL-PH1mnbYTYNEdtuncKBbwytYGRf-2LT8RVVgnzjuWj4POG6QM")
+DISCORD_USER_ID = os.getenv("899912455306747954")
 
 # IMPORTANT: replace this with the actual rewards page URL
-TARGET_URL = "https://example.com/rewards"
+TARGET_URL = "https://rewards.bing.com/redeem/sku/000885000034"
 
 
 def send_discord_message(message: str) -> None:
